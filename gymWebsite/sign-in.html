@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexcore|Reg</title>
+    <link rel="icon" href="./f.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a  href="./index.html">Home</a></li> 
+            <li><a href="./photos.html">Photos</a></li> 
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+             <li ><a class="active" class="sign_in" href="./sign-in.html">Sign-In</a> </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    
+    <section class="section-3">
+
+        <form action="index.html" method="post">
+      
+            <h1>Sign Up</h1>
+            
+            <fieldset>
+              <legend><span class="number">1</span>Your basic info</legend>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+              
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="user_email">
+              
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="user_password">
+              
+              <label>Age:</label>
+              <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+              <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">13 or older</label>
+
+              <br>
+              
+            </fieldset>
+            
+            
+          
+          </form>
+          <button type="submit">Sign Up</button>
+    </section>
+</body>
+</html>
